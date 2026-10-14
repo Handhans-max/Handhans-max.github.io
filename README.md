@@ -48,7 +48,7 @@ tags: [标签1, 标签2]
 
 ## 待填写
 
-`index.md` / `en.md` 里有三个区块是占位文字（关于我、人才观察），需要补真实内容。
+`index.md` / `en.md` 里有三个区块是占位文字（关于我、招聘侧记），需要补真实内容。
 `_config.yml` 里的 `author.name` 英文拼写、Scholar/Twitter/LinkedIn 链接需确认。
 
 ## 中英双语

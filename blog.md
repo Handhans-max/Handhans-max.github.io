@@ -6,7 +6,7 @@ title: 博客
 
 <div class="page-head">
   <h1>博客</h1>
-  <p class="page-sub">技术笔记 · 人才观察 · 行业思考</p>
+  <p class="page-sub">技术笔记 · 招聘侧记 · 行业思考</p>
 </div>
 
 {% if site.posts.size > 0 %}
