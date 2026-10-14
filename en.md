@@ -26,7 +26,10 @@ url: /en/
 <section id="about" class="section">
   <h2>About</h2>
   <div class="prose">
-    <p><em>(To be filled: your background, what you work on at StepFun, and where your technical judgment lies. 3–5 sentences recommended.)</em></p>
+    <p>I lead technical recruiting for foundation models and infrastructure at StepFun.</p>
+    <p>Before StepFun, I owned algorithm and infrastructure recruiting for Meituan's <strong>LongCat</strong> foundation model team; earlier I worked on technical talent at ByteDance and Xiaohongshu. Always internet and AI companies, watching the same pool of people.</p>
+    <p>Recognized as Meituan's <strong>Benchmark Recruiting Manager</strong> (2024) and Xiaohongshu's <strong>HR Team Best Potential Award</strong> (2021).</p>
+    <p>Most of my time goes into matching technical directions with talent supply: reading papers, tracking team roadmaps, and mapping how frontier model teams are staffed. This blog is where I write down what I see along the way.</p>
   </div>
 </section>
 
