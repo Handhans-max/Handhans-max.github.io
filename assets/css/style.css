@@ -95,6 +95,16 @@ a:hover { text-decoration: underline; }
 .contact-list li { padding: 8px 0; border-bottom: 1px solid var(--border); color: var(--text-dim); }
 .contact-list li:last-child { border-bottom: none; }
 
+/* ---------- Notes grid (招聘侧记) ---------- */
+.notes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 20px 0 0; }
+.note-card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 18px;
+}
+.note-card h3 { margin: 0 0 6px; font-size: 15px; color: var(--accent-hover); font-weight: 600; }
+.note-card p { margin: 0; font-size: 13px; color: var(--text-dim); line-height: 1.6; }
+.notes-more { margin: 18px 0 0; font-size: 14px; }
+
 /* ---------- Page head ---------- */
 .page-head { margin-bottom: 40px; }
 .page-head h1 { font-size: 30px; margin: 0 0 6px; }

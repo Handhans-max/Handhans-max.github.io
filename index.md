@@ -34,10 +34,29 @@ url_en: /en/
 </section>
 
 <section id="notes" class="section">
-  <h2>人才观察</h2>
+  <h2>招聘侧记</h2>
   <div class="prose">
-    <p><em>（此处待填写：你独有的一手信息——各基模团队在做什么、什么背景稀缺、招聘侧看到的现象。这是别人写不了的部分。）</em></p>
+    <p>我在一线旁边看到的东西。不是技术解读，是<strong>人的供给</strong>——谁在做、从哪来、什么价、怎么找。</p>
   </div>
+  <div class="notes-grid">
+    <div class="note-card">
+      <h3>团队解构</h3>
+      <p>拆开看各基模团队是怎么搭的、关键节点是谁。</p>
+    </div>
+    <div class="note-card">
+      <h3>人才市场</h3>
+      <p>什么背景在升值，什么在贬值，以及为什么。</p>
+    </div>
+    <div class="note-card">
+      <h3>方法论</h3>
+      <p>怎么从论文反查人、怎么判断含金量、怎么提高触达转化。</p>
+    </div>
+    <div class="note-card">
+      <h3>一线观察</h3>
+      <p>招聘侧的真实片段：拒绝的理由、触达的窗口、意外的模式。</p>
+    </div>
+  </div>
+  <p class="notes-more"><a href="{{ '/blog/' | relative_url }}">→ 看已写的文章</a></p>
 </section>
 
 <section id="contact" class="section">

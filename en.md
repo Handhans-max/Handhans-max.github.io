@@ -34,10 +34,29 @@ url: /en/
 </section>
 
 <section id="notes" class="section">
-  <h2>Talent Notes</h2>
+  <h2>Field Notes on Recruiting</h2>
   <div class="prose">
-    <p><em>(To be filled: what you see first-hand — what frontier model teams are working on, which backgrounds are scarce, patterns observed from the recruiting side. This is the part nobody else can write.)</em></p>
+    <p>What I see standing next to the front line. Not technical analysis — the <strong>supply side of people</strong>: who is building, where they come from, what they cost, how to find them.</p>
   </div>
+  <div class="notes-grid">
+    <div class="note-card">
+      <h3>Team Breakdown</h3>
+      <p>How frontier model teams are actually assembled, and who the key nodes are.</p>
+    </div>
+    <div class="note-card">
+      <h3>Talent Market</h3>
+      <p>Which backgrounds are appreciating, which are depreciating, and why.</p>
+    </div>
+    <div class="note-card">
+      <h3>Method</h3>
+      <p>Finding people from papers, judging signal, improving response rates.</p>
+    </div>
+    <div class="note-card">
+      <h3>Field Notes</h3>
+      <p>Real fragments from recruiting: reasons for rejection, windows of opportunity, unexpected patterns.</p>
+    </div>
+  </div>
+  <p class="notes-more"><a href="{{ '/blog/' | relative_url }}">→ Read what I've written</a></p>
 </section>
 
 <section id="contact" class="section">
