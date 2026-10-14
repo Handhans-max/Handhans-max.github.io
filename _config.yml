@@ -1,0 +1,102 @@
+# ============================================================
+#  Handhans-max 个人主页 + 博客  —  Jekyll 配置
+#  部署：push 到 GitHub repo `Handhans-max.github.io` 即自动构建
+#  地址：https://handhans-max.github.io
+# ============================================================
+
+title: "Meng Han · 韩猛"
+tagline: "Building foundation models at StepFun. Recruiting."
+description: "韩猛 · 阶跃星辰 · 基座大模型/Infra 招聘。技术笔记、人才观察、行业思考。"
+url: "https://handhans-max.github.io"
+baseurl: ""
+lang: zh
+timezone: Asia/Shanghai
+
+# ---------- 个人信息（待韩猛确认后修改） ----------
+author:
+  # ⚠️ 英文名待确认：现用 Meng Han，如果是别的拼法请改这里
+  name: "Meng Han"
+  name_cn: "韩猛"
+  alias: "小猛"
+  title: "Technical Recruiter · 基座大模型 / Infra"
+  company: "StepFun 阶跃星辰"
+  company_en: "StepFun"
+  location: "Beijing, China · 北京"
+  email: "hanmeng@stepfun.com"
+  wechat: "HM-PMH"
+  # 手机号不建议放公网
+  github: "Handhans-max"
+  scholar: ""      # 如有 Scholar 主页填这里
+  twitter: ""      # 如有 X/Twitter 填这里
+  linkedin: ""     # 如有 LinkedIn 填这里
+
+# ---------- 招聘信息（首页核心区块，给候选人看） ----------
+hiring:
+  enable: true
+  title_zh: "我在招什么人"
+  title_en: "Who I'm hiring"
+  intro_zh: |
+    我在阶跃星辰负责基座大模型与 Infra 方向的技术招聘。
+    如果你在做大模型、系统或安全方向的研究与工程，欢迎直接联系我。
+  intro_en: |
+    I lead technical recruiting for foundation models and infrastructure at StepFun.
+    If you work on large models, systems, or safety — research or engineering — reach out.
+  directions:
+    - name_zh: "基座大模型"
+      name_en: "Foundation Models"
+      desc_zh: "预训练 / 后训练 / 多模态 / 长上下文"
+      desc_en: "Pre-training / Post-training / Multimodal / Long-context"
+    - name_zh: "推理与 Infra"
+      name_en: "Inference & Infra"
+      desc_zh: "训练框架 / 推理加速 / 分布式系统"
+      desc_en: "Training frameworks / Inference / Distributed systems"
+    - name_zh: "AI Safety"
+      name_en: "AI Safety"
+      desc_zh: "安全评测 / 对齐 / 机制可解释性"
+      desc_en: "Safety evaluation / Alignment / Mechanistic interpretability"
+
+# ---------- 站点导航 ----------
+nav:
+  - title_zh: "关于"
+    title_en: "About"
+    url: "/"
+  - title_zh: "招聘"
+    title_en: "Hiring"
+    url: "/#hiring"
+  - title_zh: "博客"
+    title_en: "Blog"
+    url: "/blog/"
+  - title_zh: "联系"
+    title_en: "Contact"
+    url: "/#contact"
+
+# ---------- 构建设置 ----------
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title/
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      lang: "zh"
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
