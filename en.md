@@ -29,6 +29,7 @@ url: /en/
     <p>I lead technical recruiting for foundation models and infrastructure at StepFun.</p>
     <p>Before StepFun, I owned algorithm and infrastructure recruiting for Meituan's <strong>LongCat</strong> foundation model team; earlier I worked on technical talent at ByteDance and Xiaohongshu. Always internet and AI companies, watching the same pool of people.</p>
     <p>Recognized as Meituan's <strong>Benchmark Recruiting Manager</strong> (2024) and Xiaohongshu's <strong>HR Team Best Potential Award</strong> (2021).</p>
+    <p>I believe AGI is coming. I don't know if it's three years away or ten, but the direction is certain. Since it's going to happen, I want to stand close to it.</p>
     <p>Most of my time goes into matching technical directions with talent supply: reading papers, tracking team roadmaps, and mapping how frontier model teams are staffed. This blog is where I write down what I see along the way.</p>
   </div>
 </section>

@@ -43,18 +43,22 @@ hiring:
     I lead technical recruiting for foundation models and infrastructure at StepFun.
     If you work on large models, systems, or safety — research or engineering — reach out.
   directions:
-    - name_zh: "基座大模型"
+    - name_zh: "基座模型"
       name_en: "Foundation Models"
-      desc_zh: "预训练 / 后训练 / 多模态 / 长上下文"
-      desc_en: "Pre-training / Post-training / Multimodal / Long-context"
-    - name_zh: "推理与 Infra"
-      name_en: "Inference & Infra"
-      desc_zh: "训练框架 / 推理加速 / 分布式系统"
-      desc_en: "Training frameworks / Inference / Distributed systems"
-    - name_zh: "AI Safety"
-      name_en: "AI Safety"
-      desc_zh: "安全评测 / 对齐 / 机制可解释性"
-      desc_en: "Safety evaluation / Alignment / Mechanistic interpretability"
+      desc_zh: "Pretrain · Midtrain · Posttrain"
+      desc_en: "Pretrain · Midtrain · Posttrain"
+    - name_zh: "Infra"
+      name_en: "Infrastructure"
+      desc_zh: "训练 · 推理 · 算子"
+      desc_en: "Training · Inference · Kernels"
+    - name_zh: "算法工程"
+      name_en: "Algorithm Engineering"
+      desc_zh: "Coding 系统 · Agent · Harness"
+      desc_en: "Coding systems · Agent · Harness"
+    - name_zh: "Data"
+      name_en: "Data"
+      desc_zh: "预训练数据处理 · 数据平台 · 数据架构"
+      desc_en: "Pretraining data · Data platform · Data architecture"
 
 # ---------- 站点导航 ----------
 nav:
